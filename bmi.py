@@ -12,11 +12,11 @@ def calculate_bmi(height,weight):
     print("BMI is "+ str(bmi) )
 
     if(bmi< 18.5):
-        print("Under Weight")
+        print("-1")
     elif(18.5<=bmi<= 25.0):
-        print("Normal Weight")
+        print("0")
     elif(bmi>25.0):
-        print("Over Weight")
+        print("1")
 
 # def display_main_menu():
 #     print("Enter some numbers separated by commas (e.g. 5,67, 32)")
