@@ -20,7 +20,10 @@ def calculate_bmi(height,weight):
     elif(bmi>25.0):
         print("Over Weight")
         return 1
+<<<<<<< HEAD
 
+=======
+>>>>>>> f15d1d301eae0f2f79cb95597200b98c7a8783f9
 # def display_main_menu():
 #     print("Enter some numbers separated by commas (e.g. 5,67, 32)")
 
