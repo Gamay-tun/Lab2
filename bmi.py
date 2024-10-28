@@ -1,36 +1,37 @@
 def main():
     print("ET0735 (DevOps for AIoT) - Lab 2 - Introduction to Python")
-    display_main_menu()
-    get_user_input()
+    calculate_bmi()
+    # display_main_menu()
+    # get_user_input()
 
-# def calculate_bmi(height,weight):
-#     print("Height= "+str(height))
-#     print("Weight= "+str(weight))
+def calculate_bmi(height,weight):
+    print("Height= "+str(height))
+    print("Weight= "+str(weight))
 
-#     bmi= weight/(height*height)
-#     print("BMI is "+ str(bmi) )
+    bmi= weight/(height*height)
+    print("BMI is "+ str(bmi) )
 
-#     if(bmi< 18.5):
-#         print("Under Weight")
-#     elif(18.5<=bmi<= 25.0):
-#         print("Normal Weight")
-#     elif(bmi>25.0):
-#         print("Over Weight")
+    if(bmi< 18.5):
+        print("Under Weight")
+    elif(18.5<=bmi<= 25.0):
+        print("Normal Weight")
+    elif(bmi>25.0):
+        print("Over Weight")
 
-def display_main_menu():
-    print("Enter some numbers separated by commas (e.g. 5,67, 32)")
+# def display_main_menu():
+#     print("Enter some numbers separated by commas (e.g. 5,67, 32)")
 
-def calc_average():
-    print("calc_average")
+# def calc_average():
+#     print("calc_average")
 
-def get_user_input():
-    x=input()
-    y=x.split(",")
+# def get_user_input():
+#     x=input()
+#     y=x.split(",")
 
-    z= [float(item) for item in y]
-    print("your input numbers: "+str(z))
+#     z= [float(item) for item in y]
+#     print("your input numbers: "+str(z))
 
 
-# calculate_bmi(weight=57, height=1.73)
+calculate_bmi(weight=57, height=1.73)
 
-main()
+# main()
